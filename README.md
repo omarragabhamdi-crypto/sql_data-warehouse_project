@@ -6,9 +6,20 @@ ______________________________________________________________________________
 
 Welcome to the **The Data Warehouse Project** This project demonstrates a complete End-to-End Data Engineering pipeline, starting from raw data ingestion to building a fully structured Data Warehouse and generating actionable business insights.
 
-The solution follows a structured approach by modern ETL workflow , Using **Medllian Architecture Approach**
-focusing on data quality, transformation, and analytical modeling.
 ______________________________________________________________________________
+🏗️ Data Architecture
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
+
+<img width="1938" height="1449" alt="Screenshot 2026-04-30 233912" src="https://github.com/user-attachments/assets/75e1c8b5-4faf-4e05-9e2b-acc5cd9a871d" />
+
+Bronze Layer: Stores raw data as-is from the source systems.
+Data is ingested from CSV Files into SQL Server Database.
+
+Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+
+Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+______________________________________________________________________________
+
 📌 Applied clear and consistent naming conventions across the project to ensure readability, maintainability, and to promote a collaborative team-friendly environment.
 
 
