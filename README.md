@@ -23,10 +23,12 @@ Table Naming Conventions:
 Bronze Rules:
 
   .All names Must Star with the source system name , and table names, must match their original names without renaming .EXAPLE :     crm_customer_info
+  
 Silver Rules:
   .All names Must Star with the source system name , and table names, must match their original names without renaming .EXAPLE :     crm_customer_info
+  
 Gold Rules:
-	.All names Must Use Meaningful , Buisness _aligned names for tables starting with category prefix .
+All names Must Use Meaningful , Buisness _aligned names for tables starting with category prefix .
 
 Columns Rules:
 
