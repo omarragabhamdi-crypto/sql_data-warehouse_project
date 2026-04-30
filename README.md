@@ -1,13 +1,17 @@
 📌 Project Title :
+
 ( **End-to-End Data Warehouse & Analytics Pipeline** )
 ______________________________________________________________________________
 📖 Project Description 
+
 Welcome to the **The Data Warehouse Project** This project demonstrates a complete End-to-End Data Engineering pipeline, starting from raw data ingestion to building a fully structured Data Warehouse and generating actionable business insights.
 
 The solution follows a structured approach by modern ETL workflow , Using **Medllian Architecture Approach**
 focusing on data quality, transformation, and analytical modeling.
 ______________________________________________________________________________
-📌 Applied clear and consistent naming conventions across the project to ensure readability, maintainability, and to promote a collaborative team-friendly environment
+📌 Applied clear and consistent naming conventions across the project to ensure readability, maintainability, and to promote a collaborative team-friendly environment.
+
+
 General Principles:
   .Naming conventions :Using Snake_case with lowercase letters and underscore (_) separate words.
  	.Language           :Using English for all Naming .
@@ -20,9 +24,6 @@ Silver Rules:
 Gold Rules:
 	.All names Must Use Meaningful , Buisness _aligned names for tables starting with category prefix .
 EX:
-Pattern	meaning	EXAMPLE	
-dim_	dimention	dim_customer	
-fact_	fact	fact_Sales	
 Columns Rules:
 Surrogate Keys:
 .All primary keys in dimention tables must use _key ;
