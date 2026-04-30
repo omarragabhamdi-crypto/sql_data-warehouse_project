@@ -13,24 +13,34 @@ ______________________________________________________________________________
 
 
 General Principles:
+
   .Naming conventions :Using Snake_case with lowercase letters and underscore (_) separate words.
  	.Language           :Using English for all Naming .
 	.Avoid Reserved Words : Do not using SQL Reserved Words AS Object Name .
+	
 Table Naming Conventions:
+
 Bronze Rules:
+
   .All names Must Star with the source system name , and table names, must match their original names without renaming .EXAPLE :     crm_customer_info
 Silver Rules:
   .All names Must Star with the source system name , and table names, must match their original names without renaming .EXAPLE :     crm_customer_info
 Gold Rules:
 	.All names Must Use Meaningful , Buisness _aligned names for tables starting with category prefix .
-EX:
+
 Columns Rules:
+
 Surrogate Keys:
+
 .All primary keys in dimention tables must use _key ;
 EXAMPLE:
+
 customer_key.....Surrogate key in dim_cuatomers table
+
 Technical columns:
+
 All technical columns must start with prifx dwh_ ,folowing by a descriptive name indicating the column purose .
+
 EXample :_dwh_load_date : the system generated column used to store the date .
 
 ______________________________________________________________________________
