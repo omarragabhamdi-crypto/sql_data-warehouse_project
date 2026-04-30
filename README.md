@@ -58,24 +58,29 @@ ______________________________________________________________________________
 🔄 ETL / ELT Process
 1. Extract
 Ingest raw data from multiple sources
+
 2. Validate & Clean
 Handle missing values
 Remove duplicates
 Standardize formats
-4. Transform
+
+3. Transform
 Apply business rules
 Create derived columns
 Build fact & dimension tables
-5. Load
+
+4. Load
 Load processed data into the Data Warehouse
 📊 Data Modeling
 Implemented Star Schema
 Fact Table: stores transactional data
 Dimension Tables: store descriptive attributes
+
 📈 Analysis & Insights
 Identified key business KPIs
 Performed trend analysis
 Generated insights to support decision-making
+
 🚀 Key Features
 End-to-End pipeline (Raw → Insights)
 Data Quality validation layer
